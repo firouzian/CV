@@ -1,0 +1,180 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=.90]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Amir Hossein} % Your first name
+\familyname{Firouzian} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{No. 4, Tangestan-1 Alley, Unit 22, Pasdaran St.}{Tehran, Iran}
+\homepage{firouzian.ir} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\email{firouziyan@gmail.com}
+\mobile{+98 (912) 8243660}
+\photo[70pt][0pt]{PIC.jpeg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2009--2015}{B.Sc. in Physics, Condensed Matter}{K. N. Toosi University of Technology}{Faculty of Science}{}{}  % Arguments not required can be left empty
+\cventry{2005--2009}{High School Diploma}{Amir High School}{}{}{}
+
+\section{B.Sc. Senior Project,}
+
+\cvitem{Title}{\emph{Proton Deuteron (P-PN) scattering cross-section in Chiral Potential}}
+\cvitem{Supervisors}{Ph.D. Mehdi Radin}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Translation}
+\cventry{July 2015\\Present}{BOINC Persian Translation Team Coordinator}{Transifex}{}{}{This software is a platform for grid computing and release by UC Berkeley}{}
+
+\cventry{July 2015\\Present}{Mumble Persian Translation Team Coordinator}{Transifex}{}{}{This FLOSS Software is VoIP Solution that uses a low bandwidth compared to other proprietary software like Skype\textsuperscript{\texttrademark}}{}
+
+\subsection{Teaching}
+
+\cventry{Oct. 2015\\Nov. 2015}{Teaching Wolfram \textit{Mathematica}\textsuperscript{\textregistered}}{Shahid Rajaee Teacher Training University}{Tehran}{}{A ten-hour class for university students, covering Wolfram concepts and some build-in visualization commands.}
+
+\cventry{July 2015\\Sept. 2015}{Teaching C/C++}{Held by IEEE student branch in University of Tehran}{Tehran}{}{}
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{Oct. 2010\\Feb. 2011}{Administrator of computers in IT Center}{K. N. Toosi University of Tech. Faculty Of Science}{Tehran}{}{}
+
+
+\section{Publication}
+\nocite{*}
+\bibliographystyle{plainyrrev}
+\bibliography{\jobname}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\cvitem{2009}{National Undergraduate Admission Scholarship}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\subsection{Programing Language}
+\cvitem{Advanced}{C/C++, FORTRAN 90/95, MATLAB\textsuperscript{\textregistered}, Wolfram Language, Shell Script, HTML, VB.NET}
+\cvitem{Intermediate}{\LaTeX, JAVA SE, CSS3}
+\cvitem{Basic}{R}
+
+\subsection{Operating Systems}
+\cvitem{GNU/LINUX}{Debian, Ubuntu, Mint, OpenSUSE, Fedora, Kali}
+\cvitem{Windows}{Microsoft Windows\textsuperscript{\textregistered} 10, 7, XP}
+\cvitem{DOS}{FreeDOS}
+
+\subsection{General Software}
+\cvitem{Advanced}{LibreOffice, Microsoft Office\textsuperscript{\textregistered}}
+
+\subsection{Specific Software}
+\cvitem{Intermediate}{COMSOL\textsuperscript{\textregistered} Multiphysics, Solidworks\textsuperscript{\textregistered}}
+
+\subsection{Computer Hardware}
+\cvitem{Advanced}{Assemble Desktop, Hardware minor issue diagnosing}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Talk \& Presentation}
+
+\cvitem{2010}{Application of Mathematica\textsuperscript{\textregistered} In physics \uppercase\expandafter{\romannumeral 3\relax}}
+\cvitem{2012}{CCD Cameras \& How they work}
+\cvitem{2013}{Application of LASER in LEGO Project}
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOPS
+%----------------------------------------------------------------------------------------
+
+\section{Workshop That I Participate In}
+\cventry{Mar. 2016}{4\textsuperscript{th} Workshop on Advanced Techniques for Scientific Programming and Management of Open source Software Packages}{ICTP}{Trieste}{Italy}{http://indico.ictp.it/event/7657/}
+\cventry{Mar. 2016}{Deal.II Users and Developers Training}{ICTP}{Trieste}{Italy}{http://indico.ictp.it/event/7751/}
+\cventry{Nov. 2014}{IEEE Iran Section Workshop on Advance MATLAB\textsuperscript{\textregistered}}{K. N. Toosi Uni. of Tech. Faculty Of Electrical \& Computer Engineering}{Tehran}{Iran}{}
+
+\cventry{Mar. 2014}{Emargance On Complex System}{IPM}{Tehran}{Iran}{}
+
+\cventry{July 2012}{Summer Workshop on Theoretical Computer Science}{IPM}{Tehran}{Iran}{}
+
+\cventry{May 2011}{IPM 3\textsuperscript{rd} Optimization Workshop}{K. N. Toosi University of Tech. Faculty Of Science}{Tehran}{Iran}{}
+
+\cventry{May 2010}{IPM 2\textsuperscript{nd} Optimization Workshop}{K. N. Toosi University of Tech. Faculty Of Science}{Tehran}{Iran}{}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Persian}{Native Language}{}
+\cvitemwithcomment{English}{Advance}{TOEFL iBT R:23 L:24 S:20 W:18 T:85}
+%\cvitemwithcomment{Arabic}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Swimming}{Chess}
+\cvlistdoubleitem{Cooking}{Running}
+
+\end{document}
